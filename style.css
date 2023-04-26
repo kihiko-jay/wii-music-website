@@ -1,0 +1,132 @@
+body {
+  background-color: darkkhaki;
+  width: 100%;
+  max-width: 1024px;
+}
+header h3 {
+  font-size: 30px;
+}
+nav ul {
+  display: flex;
+  float: right;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: bisque;
+}
+.company_bio {
+  width: 100%;
+  float: left;
+  margin-left: 1%;
+}
+#boxes {
+  content: "";
+  display: table;
+  clear: both;
+}
+div {
+  float: left;
+
+  padding: 0 10px;
+}
+
+#studioPhoto {
+  border-radius: 10px;
+  float: right;
+  margin-right: -85px;
+}
+.company_bio p,
+.company_bio img {
+  width: 50%;
+  float: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.about_US,
+.services,
+.Our_Work,
+.contact_Us h1 {
+  margin-left: 40%;
+  text-decoration: underline;
+  font-size: 25px;
+  float: left;
+}
+.music_pr,
+.video_pr,
+.photography {
+  float: left;
+  margin-left: 20px;
+  width: 25%;
+}
+.services_content {
+  width: 100%;
+  margin-left: 5%;
+  padding: 15px;
+}
+.company_bio {
+  margin-left: 5%;
+}
+.logo h3 {
+  margin-left: 10%;
+}
+.contact_Us {
+  height: 30%;
+  width: 80%;
+  margin-left: 10%;
+}
+.form_details {
+  margin-left: 20%;
+  font-size: 25px;
+  border-radius: 5px;
+  pad: 20px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px soild #ccc;
+  border-bottom: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.aside {
+  width: 100%;
+
+  display: flex;
+  float: right;
+}
+#logopic {
+  margin-left: 15%;
+  margin-top: -15px;
+}
+.services_content img {
+  border-radius: 100px;
+}
+.video_pr,
+.photography {
+  margin-left: 50px;
+}
+.logo img {
+  height: auto;
+  width: 150px;
+  border-radius: 25px;
+}
